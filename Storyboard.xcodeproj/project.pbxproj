@@ -21,6 +21,7 @@
 		CBA4BA8E183DD50500B330C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA4BA70183DD50500B330C8 /* UIKit.framework */; };
 		CBA4BA96183DD50500B330C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA4BA94183DD50500B330C8 /* InfoPlist.strings */; };
 		CBA4BA98183DD50500B330C8 /* StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4BA97183DD50500B330C8 /* StoryboardTests.m */; };
+		CBA4BAA3183DD56B00B330C8 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4BAA2183DD56B00B330C8 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CBA4BA93183DD50500B330C8 /* StoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTests-Info.plist"; sourceTree = "<group>"; };
 		CBA4BA95183DD50500B330C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBA4BA97183DD50500B330C8 /* StoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTests.m; sourceTree = "<group>"; };
+		CBA4BAA1183DD56B00B330C8 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CBA4BAA2183DD56B00B330C8 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CBA4BA7B183DD50500B330C8 /* AppDelegate.h */,
 				CBA4BA7C183DD50500B330C8 /* AppDelegate.m */,
 				CBA4BA7E183DD50500B330C8 /* Main.storyboard */,
+				CBA4BAA1183DD56B00B330C8 /* MyViewController.h */,
+				CBA4BAA2183DD56B00B330C8 /* MyViewController.m */,
 				CBA4BA81183DD50500B330C8 /* ViewController.h */,
 				CBA4BA82183DD50500B330C8 /* ViewController.m */,
 				CBA4BA84183DD50500B330C8 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			files = (
 				CBA4BA83183DD50500B330C8 /* ViewController.m in Sources */,
 				CBA4BA7D183DD50500B330C8 /* AppDelegate.m in Sources */,
+				CBA4BAA3183DD56B00B330C8 /* MyViewController.m in Sources */,
 				CBA4BA79183DD50500B330C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
